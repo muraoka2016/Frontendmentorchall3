@@ -1,0 +1,84 @@
+:root{
+    --hover-text-color: hsl(75, 94%, 57%);
+    --background: hsl(0, 0%, 8%);
+    --card-background: hsl(0, 0%, 12%);
+    --p-color: hsl(0, 0%, 20%);
+}
+
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--background);
+} 
+.card-box{
+    background-color: var(--card-background);
+    width: 300px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1{
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2{
+    color: var(--hover-text-color);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+.p-job{
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.social-link{
+    background-color: var(--p-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 250px;
+    padding: 4px 4px;
+    border-radius: 3px;
+    margin: 10px 20px 20px 20px;
+}
+
+.p-social-link{
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.p-social-link:hover{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: var(--p-color);
+    text-align: center;
+}
+
+.social-link:hover{
+    background-color: var(--hover-text-color);
+    cursor: pointer;
+}
